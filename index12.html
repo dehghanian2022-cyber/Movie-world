@@ -1,0 +1,380 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Movie World</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>Movie World</h1>
+    <p>Watch the Best Movies Anytime</p>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">Movies</a>
+    <a href="#">Series</a>
+    <a href="#">Top Rated</a>
+    <a href="#">Contact</a>
+    <a href="#">Login</a>
+</nav>
+
+<hr>
+
+<main>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h2>Welcome to Movie World</h2>
+
+        <p>
+            Discover thousands of amazing movies and TV shows from around
+            the world. Watch trailers, read reviews, and find your next
+            favorite film today.
+        </p>
+    </section>
+
+    <hr>
+
+    <!-- Popular Movies -->
+    <section>
+        <h2 class="section-title popular-title">Popular Movies</h2>
+
+        <div class="movies">
+
+            <article class="movie-card">
+                <h3>Inception</h3>
+                <p>Christopher Nolan</p>
+                <p>Science Fiction</p>
+                <p>2010</p>
+            </article>
+
+            <article class="movie-card">
+                <h3>Interstellar</h3>
+                <p>Christopher Nolan</p>
+                <p>Science Fiction</p>
+                <p>2014</p>
+            </article>
+
+            <article class="movie-card">
+                <h3>The Dark Knight</h3>
+                <p>Christopher Nolan</p>
+                <p>Action</p>
+                <p>2008</p>
+            </article>
+
+        </div>
+    </section>
+
+    <hr>
+
+    <!-- Top Movies -->
+    <section>
+        <table>
+            <caption class="top">Top Movies</caption>
+
+            <thead>
+                <tr>
+                    <th>Movie</th>
+                    <th>Genre</th>
+                    <th>Year</th>
+                    <th>Rating</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Interstellar</td>
+                    <td>Sci-Fi</td>
+                    <td>2014</td>
+                    <td>9.5</td>
+                </tr>
+
+                <tr>
+                    <td>Avengers: Endgame</td>
+                    <td>Action</td>
+                    <td>2019</td>
+                    <td>9.2</td>
+                </tr>
+
+                <tr>
+                    <td>Inception</td>
+                    <td>Sci-Fi</td>
+                    <td>2010</td>
+                    <td>9.3</td>
+                </tr>
+
+                <tr>
+                    <td>The Dark Knight</td>
+                    <td>Action</td>
+                    <td>2008</td>
+                    <td>9.6</td>
+                </tr>
+
+                <tr>
+                    <td>Titanic</td>
+                    <td>Romance</td>
+                    <td>1997</td>
+                    <td>9.0</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <hr>
+
+    <!-- Categories -->
+    <section>
+        <h2 class="section-title">Categories</h2>
+
+        <div class="categories">
+
+            <div class="category-card">
+                <h3>Genre</h3>
+
+                <ol>
+                    <li>Action</li>
+                    <li>Comedy</li>
+                    <li>Drama</li>
+                    <li>Horror</li>
+                    <li>Animation</li>
+                </ol>
+            </div>
+
+            <div class="category-card">
+                <h3>Apps</h3>
+
+                <ul>
+                    <li>Netflix</li>
+                    <li>Disney+</li>
+                    <li>HBO</li>
+                    <li>Prime Video</li>
+                </ul>
+            </div>
+
+        </div>
+    </section>
+
+    <hr>
+
+    <!-- Trailer -->
+    <section>
+        <h2 class="section-title trailer-title">Trailer</h2>
+
+        <iframe
+            class="trailer-video"
+            src="https://web.telegram.org/a/#6646296572"
+            title="Movie Trailer">
+        </iframe>
+    </section>
+
+    <hr>
+
+    <!-- Contact Form -->
+    <section>
+        <h2 class="section-title form-title">Contact Us</h2>
+
+        <form>
+
+            <label for="full-name">Full Name:</label>
+            <input
+                id="full-name"
+                type="text"
+                placeholder="Enter your name..."
+                required>
+
+            <label for="phone">Phone Number:</label>
+            <input
+                id="phone"
+                type="tel"
+                placeholder="Enter your phone number...">
+
+            <label for="email">Email:</label>
+            <input
+                id="email"
+                type="email"
+                placeholder="Enter your email..."
+                required>
+
+            <label for="password">Password:</label>
+            <input
+                id="password"
+                type="password"
+                placeholder="Enter your password...">
+
+            <label for="confirm-password">Confirm Password:</label>
+            <input
+                id="confirm-password"
+                type="password"
+                placeholder="Confirm your password...">
+
+            <h3>Favorite Type</h3>
+
+            <div class="option">
+                <input
+                    type="radio"
+                    id="movie"
+                    name="favorite_type"
+                    value="Movie">
+
+                <label for="movie">Movie</label>
+            </div>
+
+            <div class="option">
+                <input
+                    type="radio"
+                    id="series"
+                    name="favorite_type"
+                    value="Series">
+
+                <label for="series">Series</label>
+            </div>
+
+            <h3>Favorite Genres</h3>
+
+            <div class="option">
+                <input
+                    type="checkbox"
+                    id="action"
+                    name="favorite_genres"
+                    value="Action">
+
+                <label for="action">Action</label>
+            </div>
+
+            <div class="option">
+                <input
+                    type="checkbox"
+                    id="comedy"
+                    name="favorite_genres"
+                    value="Comedy">
+
+                <label for="comedy">Comedy</label>
+            </div>
+
+            <div class="option">
+                <input
+                    type="checkbox"
+                    id="horror"
+                    name="favorite_genres"
+                    value="Horror">
+
+                <label for="horror">Horror</label>
+            </div>
+
+            <label for="country">Choose your country:</label>
+
+            <select id="country" name="country">
+                <option value="" selected disabled>
+                    Choose your country
+                </option>
+                <option value="iran">Iran</option>
+                <option value="germany">Germany</option>
+                <option value="canada">Canada</option>
+                <option value="switzerland">Switzerland</option>
+            </select>
+
+            <label for="release-date">
+                Favorite Movie Release Date:
+            </label>
+
+            <input
+                type="date"
+                id="release-date"
+                name="release-date">
+
+            <label for="file">
+                Upload Your Favorite Poster:
+            </label>
+
+            <input
+                type="file"
+                id="file"
+                name="file">
+
+            <label for="opinion">Your Opinion:</label>
+
+            <textarea
+                id="opinion"
+                name="opinion"
+                placeholder="Write your opinion...">
+            </textarea>
+
+            <div class="form-buttons">
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+            </div>
+
+        </form>
+    </section>
+
+    <hr>
+
+    <!-- FAQ -->
+    <section>
+        <h2 class="section-title">Frequently Asked Questions</h2>
+
+        <div class="questions">
+
+            <article>
+                <h3>Can I watch movies for free?</h3>
+                <p>Yes, some movies are available for free.</p>
+            </article>
+
+            <article>
+                <h3>Do I need to create an account?</h3>
+                <p>
+                    Yes, an account is required to save your favorites.
+                </p>
+            </article>
+
+            <article>
+                <h3>Can I watch TV series?</h3>
+                <p>
+                    Yes, thousands of TV series are available.
+                </p>
+            </article>
+
+        </div>
+    </section>
+
+    <hr>
+
+    <!-- Movie Tips -->
+    <section>
+        <h2 class="section-title">Movie Tips</h2>
+
+        <aside class="tips">
+            <ul>
+                <li>
+                    Choose movies based on your favorite genre.
+                </li>
+
+                <li>
+                    Read reviews before watching a movie.
+                </li>
+
+                <li>
+                    Watch movies with high ratings.
+                </li>
+            </ul>
+        </aside>
+    </section>
+
+</main>
+
+<footer>
+    <p>© 2026 Movie World</p>
+    <p>All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
+```
