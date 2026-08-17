@@ -853,3 +853,300 @@ footer {
     }
 }
 ```
+/* =========================
+   MOBILE RESPONSIVE
+========================= */
+
+@media (max-width: 768px) {
+
+    body {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    hr {
+        width: 85%;
+        margin: 35px auto;
+    }
+
+
+    /* HEADER */
+
+    header {
+        padding-top: 25px;
+    }
+
+    header h1 {
+        width: 90%;
+        font-size: 48px;
+        padding: 18px 10px;
+    }
+
+    header p {
+        width: 80%;
+        font-size: 14px;
+    }
+
+
+    /* NAVIGATION */
+
+    nav {
+        width: 92%;
+        padding: 8px;
+        gap: 5px;
+        border-radius: 25px;
+    }
+
+    nav a {
+        padding: 9px 10px;
+        font-size: 13px;
+    }
+
+
+    /* HERO */
+
+    .hero h2 {
+        width: 90%;
+        font-size: 35px;
+        padding: 18px 12px;
+    }
+
+    .hero p {
+        width: 88%;
+        font-size: 15px;
+        line-height: 1.7;
+        padding: 15px;
+    }
+
+
+    /* SECTION TITLES */
+
+    .section-title {
+        width: 85%;
+        font-size: 30px;
+        padding: 20px 12px;
+    }
+
+
+    /* MOVIES */
+
+    .movies {
+        width: 90%;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .movie-card {
+        width: 90%;
+        max-width: 320px;
+        padding: 22px;
+    }
+
+    .movie-card h3 {
+        font-size: 26px;
+    }
+
+    .movie-card p {
+        font-size: 17px;
+    }
+
+
+    /* TABLE */
+
+    table {
+        width: 92%;
+        font-size: 12px;
+    }
+
+    th {
+        padding: 10px 5px;
+        font-size: 12px;
+    }
+
+    td {
+        padding: 10px 5px;
+        font-size: 12px;
+    }
+
+    .top {
+        font-size: 26px;
+    }
+
+
+    /* CATEGORIES */
+
+    .categories {
+        width: 90%;
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+    }
+
+    .category-card {
+        width: 90%;
+        max-width: 320px;
+        padding: 25px;
+    }
+
+
+    /* TRAILER */
+
+    .trailer-video {
+        width: 90%;
+        height: 230px;
+        margin-bottom: 30px;
+    }
+
+
+    /* FORM */
+
+    form {
+        width: 92%;
+        padding: 25px 15px;
+    }
+
+    form > label,
+    form h3 {
+        width: 90%;
+        font-size: 17px;
+    }
+
+    form input,
+    form select,
+    textarea {
+        width: 90%;
+        font-size: 15px;
+    }
+
+    .option {
+        width: 90%;
+    }
+
+    .option label {
+        font-size: 15px;
+    }
+
+
+    /* BUTTONS */
+
+    .form-buttons {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    button {
+        width: 160px;
+    }
+
+
+    /* FAQ */
+
+    .questions {
+        width: 90%;
+        padding: 20px 15px;
+    }
+
+    .questions h3 {
+        font-size: 17px;
+    }
+
+    .questions p {
+        font-size: 15px;
+        line-height: 1.6;
+    }
+
+
+    /* MOVIE TIPS */
+
+    .tips {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .tips li {
+        font-size: 15px;
+        line-height: 1.6;
+    }
+
+
+    /* FOOTER */
+
+    footer {
+        padding: 20px 10px;
+        font-size: 14px;
+    }
+}
+
+
+/* =========================
+   SMALL PHONES
+========================= */
+
+@media (max-width: 400px) {
+
+    header h1 {
+        font-size: 38px;
+    }
+
+    header p {
+        font-size: 12px;
+    }
+
+    nav a {
+        padding: 7px 8px;
+        font-size: 11px;
+    }
+
+    .hero h2 {
+        font-size: 29px;
+    }
+
+    .hero p {
+        font-size: 14px;
+    }
+
+    .section-title {
+        font-size: 26px;
+    }
+
+    .movie-card {
+        width: 95%;
+    }
+
+    table {
+        width: 96%;
+        font-size: 10px;
+    }
+
+    th,
+    td {
+        padding: 8px 3px;
+        font-size: 10px;
+    }
+
+    .trailer-video {
+        width: 95%;
+        height: 200px;
+    }
+
+    form {
+        width: 96%;
+        padding: 20px 8px;
+    }
+
+    form input,
+    form select,
+    textarea {
+        width: 92%;
+    }
+
+    .questions {
+        width: 95%;
+    }
+
+    .tips {
+        width: 95%;
+    }
+}
